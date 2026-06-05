@@ -7,6 +7,19 @@
 **Repository:** https://github.com/miccowang66-max/L4-CRISP  
 **Status:** Production-ready, deployed to GitHub
 
+### Summary
+
+This project implements a complete **CRISP-DM (Cross-Industry Standard Process for Data Mining)** workflow for linear regression analysis and outlier detection. It generates synthetic data following the formula `y = ax + b + ε` where `ε` is Gaussian noise, trains a linear regression model to recover the true parameters, and identifies the top 10 most anomalous data points based on residual analysis.
+
+**Key Highlights:**
+- ✅ **5-Phase CRISP-DM Pipeline**: Business understanding → Data preparation → Modeling → Evaluation → Visualization
+- ✅ **Interactive Streamlit App**: Configure parameters, run simulations, and visualize results in real-time
+- ✅ **Mathematical Rigor**: Properly handles variance-to-std-dev conversion (σ = √var) for noise generation
+- ✅ **Outlier Detection**: Ranks data points by absolute residual to identify extreme deviations
+- ✅ **Publication-Quality Visuals**: Clear scatter plots with regression line and highlighted outliers
+
+**Tech Stack:** Python, NumPy, Pandas, scikit-learn, Matplotlib, Streamlit
+
 ### Implementation Summary
 
 #### Phase 1: Business & Data Understanding
