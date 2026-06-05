@@ -2,7 +2,6 @@
 
 <div align="center">
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://l4-crisp.streamlit.app)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/miccowang66-max/L4-CRISP.svg)](https://github.com/miccowang66-max/L4-CRISP/stargazers)
@@ -10,17 +9,21 @@
 **A complete data mining pipeline following the CRISP-DM framework**  
 *Simulate, model, evaluate, and visualize linear regression with outlier detection*
 
-[Live Demo](https://l4-crisp.streamlit.app) • [Report Bug](https://github.com/miccowang66-max/L4-CRISP/issues) • [Request Feature](https://github.com/miccowang66-max/L4-CRISP/issues)
+[Report Bug](https://github.com/miccowang66-max/L4-CRISP/issues) • [Request Feature](https://github.com/miccowang66-max/L4-CRISP/issues)
 
 </div>
 
 ---
 
-## 🎯 Live Demo
+## 🎯 Run Locally
 
-**Try it now:** [https://l4-crisp.streamlit.app](https://l4-crisp.streamlit.app)
+To run the interactive Streamlit app on your local machine:
 
-The interactive Streamlit app lets you:
+```bash
+streamlit run app.py
+```
+
+The app will open in your browser at `http://localhost:8501` and lets you:
 - Configure simulation parameters in real-time
 - Generate synthetic datasets with custom noise levels
 - Train linear regression models instantly
@@ -272,8 +275,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 📧 Contact
 
 **GitHub:** [@miccowang66-max](https://github.com/miccowang66-max)  
-**Repository:** [L4-CRISP](https://github.com/miccowang66-max/L4-CRISP)  
-**Live Demo:** [https://l4-crisp.streamlit.app](https://l4-crisp.streamlit.app)
+**Repository:** [L4-CRISP](https://github.com/miccowang66-max/L4-CRISP)
 
 ---
 
