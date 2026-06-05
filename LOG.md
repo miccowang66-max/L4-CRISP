@@ -1,5 +1,41 @@
 # Development Log
 
+## 2026-06-05 - Security: Prevent .env from Being Pushed
+
+### Changes Made
+- **.gitignore**: Added `.env` and `.env.*` patterns to prevent environment variable files from being committed
+- Verified no `.env` files are currently tracked by git
+
+### Security Notes
+- `.env` files may contain sensitive credentials or API keys
+- Always keep `.env` out of version control
+- Use `.streamlit/secrets.toml` for Streamlit Cloud secrets (already gitignored)
+
+---
+
+## 2026-06-05 - README Rewrite & Link Update
+
+### Changes Made
+- **README.md**: Completely rewritten to match the style of [L3-Personal-Web-Page](https://github.com/miccowang66-max/L3-Personal-Web-Page)
+  - Added structured tables for features, tech stack, CRISP-DM methodology, and customization
+  - Clean emoji headers and consistent formatting
+  - Simplified sections with better visual hierarchy
+- **Live Demo Link**: Updated all references to `https://l4crispdd.streamlit.app/`
+  - Badge link (line 3)
+  - Live Demo table (line 16)
+  - Deployment section (line 55)
+
+### Deployment Status
+- [x] Code committed to GitHub
+- [x] README updated with new Streamlit Cloud URL
+- [x] `app.py` and `requirements.txt` verified for deployment
+- [ ] Streamlit Cloud deployment needs re-activation at https://share.streamlit.io
+  - Repository: `miccowang66-max/L4-CRISP`
+  - Branch: `main`
+  - Main file: `app.py`
+
+---
+
 ## 2026-06-05 - Initial Project Setup
 
 ### Project Overview

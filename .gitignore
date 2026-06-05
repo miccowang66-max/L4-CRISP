@@ -23,6 +23,10 @@ wheels/
 .installed.cfg
 *.egg
 
+# Environment variables
+.env
+.env.*
+
 # Streamlit
 .streamlit/secrets.toml
 
