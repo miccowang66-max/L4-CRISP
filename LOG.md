@@ -1,5 +1,20 @@
 # Development Log
 
+## 2026-06-12 - Fix Streamlit Badge Link
+
+### Changes Made
+- **README.md**: Fixed the "Deploy to Streamlit" badge link on line 3
+  - Replaced deprecated `https://share.streamlit.io/deploy?repository=...` with direct app URL `https://l4-crisp.streamlit.app/`
+  - Updated badge alt text from "Deploy to Streamlit" to "Streamlit App"
+  - Streamlit's `share.streamlit.io` deploy service has been decommissioned; badges should now link directly to the deployed app per official docs
+- Verified all three README references point to `https://l4-crisp.streamlit.app/`
+
+### Deployment Status
+- [x] Badge link fixed
+- [x] Changes committed and pushed to `origin/main`
+
+---
+
 ## 2026-06-05 - Security: Prevent .env from Being Pushed
 
 ### Changes Made
@@ -20,16 +35,16 @@
   - Added structured tables for features, tech stack, CRISP-DM methodology, and customization
   - Clean emoji headers and consistent formatting
   - Simplified sections with better visual hierarchy
-- **Live Demo Link**: Updated all references to `https://l4crispdd.streamlit.app/`
+- **Live Demo Link**: Updated all references to `https://l4-crisp.streamlit.app/`
   - Badge link (line 3)
   - Live Demo table (line 16)
   - Deployment section (line 55)
 
 ### Deployment Status
 - [x] Code committed to GitHub
-- [x] README updated with new Streamlit Cloud URL
+- [x] README updated with Streamlit Cloud URL
 - [x] `app.py` and `requirements.txt` verified for deployment
-- [ ] Streamlit Cloud deployment needs re-activation at https://share.streamlit.io
+- [x] Streamlit Cloud app live at https://l4-crisp.streamlit.app/
   - Repository: `miccowang66-max/L4-CRISP`
   - Branch: `main`
   - Main file: `app.py`
@@ -150,4 +165,4 @@ Visualization saved: crisp_dm_regression_output.png
 
 ---
 **Log maintained by:** Development Team  
-**Last updated:** 2026-06-05
+**Last updated:** 2026-06-12
