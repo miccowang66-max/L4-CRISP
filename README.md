@@ -1,6 +1,6 @@
 # 📊 CRISP-DM Linear Regression & Outlier Detection
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://l4crispdd.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://l4-crisp.streamlit.app/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
@@ -13,7 +13,7 @@
 
 | Platform | URL | Description |
 | --- | --- | --- |
-| **Streamlit Cloud** | [l4crispdd.streamlit.app](https://l4crispdd.streamlit.app/) | Interactive web app — configure & run in real-time |
+| **Streamlit Cloud** | [l4-crisp.streamlit.app](https://l4-crisp.streamlit.app/) | Interactive web app — configure & run in real-time |
 
 ---
 
@@ -52,7 +52,7 @@ Push to `main` branch triggers automatic redeployment on Streamlit Cloud.
 git push origin main
 ```
 
-App URL: [https://l4crispdd.streamlit.app/](https://l4crispdd.streamlit.app/)
+App URL: [https://l4-crisp.streamlit.app/](https://l4-crisp.streamlit.app/)
 
 ---
 
